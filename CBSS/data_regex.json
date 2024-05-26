@@ -1,0 +1,38 @@
+{
+    "ZJAD": {
+        "ID": "/ZJAD/original/nifti/",
+        "T1": "/ZJAD/original/nifti/IDIDIDID/*_3DT1.nii.gz",
+        "FLAIR": "/ZJAD/original/nifti/IDIDIDID/*_2DFLAIR.nii.gz",
+        "DWI": "/ZJAD/original/nifti/IDIDIDID/*DTI*.nii.gz",
+        "bval": "/ZJAD/original/nifti/IDIDIDID/*DTI*.bval",
+        "bvec": "/ZJAD/original/nifti/IDIDIDID/*DTI*.bvec",
+        "IVIM": "/ZJAD/original/nifti/IDIDIDID/*IVIM.nii.gz",
+        "IVIM_bval": "/ZJAD/original/nifti/IDIDIDID/*IVIM.bval",
+        "fMRI": "/ZJAD/original/final_blood/IDIDIDID/*Brainwave*.nii",
+        "fMRI_json": "/ZJAD/original/final_blood/IDIDIDID/*Brainwave*.json",
+        "ASL": "/ZJAD/original/final_blood/IDIDIDID/*Cerebral_Blood_Flow*.nii",
+        "save": "/ZJAD/processed/time0"
+    },
+    "ZJSVD": {
+        "ID": "/CBSS/original/",
+        "T1": "/CBSS/original/IDIDIDID/T1.nii",
+        "DWI": "/CBSS/original/IDIDIDID/PA_singleShell_DTI.nii",
+        "bval": "/CBSS/original/IDIDIDID/PA_singleDTI.bval",
+        "bvec": "/CBSS/original/IDIDIDID/PA_singleDTI.bvec",
+        "IVIM": "/CBSS/original/IDIDIDID/IVIM.nii",
+        "IVIM_bval": "/CBSS/original/IDIDIDID/IVIM.bval",
+        "save": "/CBSS/processed/"
+    },
+    "CBSS": {
+        "ID": "/original/.",
+        "DWI": "/original/IDIDIDID/DTI.nii.gz",
+        "bval": "/original/IDIDIDID/DTI.bval",
+        "bvec": "/original/IDIDIDID/DTI.bvec",
+        "IVIM": "/original/IDIDIDID/IVIM.nii.gz",
+        "IVIM_bval": "/original/IDIDIDID/IVIM.bval",
+        "fMRI": "/original/IDIDIDID/fMRI.nii.gz",
+        "fMRI_json": "/original/IDIDIDID/fMRI.json",
+        "ASL": "/original/ASL.nii.gz",
+        "save": "/processed/"
+    }
+}

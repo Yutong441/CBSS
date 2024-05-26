@@ -1,0 +1,37 @@
+label,atlas
+C1,superior longitudinal fissure (anterior part)
+C2,superior longitudinal fissure (posterior part)
+C3,suprasellar cistern
+C4,prepontine cistern
+C5,premedullary cistern
+C6,quadrigeminal cistern
+C14,third ventricle
+C15,fourth ventricle
+C43,left lateral ventricle
+C44,right lateral ventricle
+C1001,left central sulcus
+C1002,left Sylvian fissure
+C1003,left precentral sulcus
+C1004,left postcentral sulcus
+C1005,left intraparietal sulcus
+C1006,left superior temporal sulcus
+C1007,left crural cistern
+C1008,left cerebellopontine angle cistern
+C1009,left cerebellomedullary angle cistern
+C1010,left ambient cistern
+C2001,right central sulcus
+C2002,right Sylvian fissure
+C2003,right precentral sulcus
+C2004,right postcentral sulcus
+C2005,right intraparietal sulcus
+C2006,right superior temporal sulcus
+C2007,right crural cistern
+C2008,right cerebellopontine angle cistern
+C2009,right cerebellomedullary angle cistern
+C2010,right ambient cistern
+C3001,left lateral ventricle
+C3002,right lateral ventricle
+C3003,left inferior lateral ventricle
+C3004,right inferior lateral ventricle
+C3005,third ventricle
+C3006,fourth ventricle
