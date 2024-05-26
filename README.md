@@ -5,7 +5,7 @@
 ## Installation
 * prerequisites
     - Linux system
-    - python3 ($\geq$3.7)
+    - python3
     - [python3 virtual environment](https://tellor.io/blog/how-to-install-python-3-9-and-venv-on-ubuntu/)
     - [gfortran](https://fortran-lang.org/learn/os_setup/install_gfortran/)
     - [lapack](https://askubuntu.com/questions/623578/installing-blas-and-lapack-packages)
@@ -42,7 +42,7 @@ make
     - ASL: optional
 
 * folder structure
-    - Store all the images in one location (I will refer this location as `data_dir`).
+    - Store all the images in one location (I will refer to this location as `data_dir`).
     - This diectory must contain two folders: `original` and `processed`
     - The `original` folder has one folder for one patient
     - The `processed` folder stores CBSS results
