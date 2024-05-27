@@ -3,6 +3,7 @@ pandas
 matplotlib
 nibabel
 scipy
-sckit-image
+scikit-image
 lmfit
 antspyx
+dipy

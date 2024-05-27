@@ -79,14 +79,15 @@ def extract_ivim_val(wdir, mode="CSF"):
             # remove the values below 0
             diff_val = diff_val[diff_val > 0]
             diff_val = diff_val[np.isfinite(diff_val)]
-            out_dict[i] = {
-                "mean_val": diff_val.mean(),
-                "median_val": np.median(diff_val),
-                "max_val": diff_val.max(),
-                "min_val": diff_val.min(),
-                "sd": diff_val.std(),
-                "vol": len(diff_val)
-            }
+            if len(diff_val) > 0:
+                out_dict[i] = {
+                    "mean_val": diff_val.mean(),
+                    "median_val": np.median(diff_val),
+                    "max_val": diff_val.max(),
+                    "min_val": diff_val.min(),
+                    "sd": diff_val.std(),
+                    "vol": len(diff_val)
+                }
 
     out_dict = pd.DataFrame.from_dict(out_dict, orient="index")
     out_dict.to_csv(wdir+"/sum_stat_{}.csv".format(mode))
