@@ -191,7 +191,7 @@ if __name__ == "__main__":
     parser.add_argument("--arrayID", type=int, default=0)
     args = parser.parse_args()
     if args.niimath_path == "None":
-        niimath_p = os.path.realpath(__file__) + \
+        niimath_p = os.path.dirname(os.path.realpath(__file__)) + \
             "/../software/niimath/build/bin/"
     else:
         niimath_p = args.niimath_path
