@@ -14,6 +14,7 @@ collect_csf <- function(root, filename="sum_stat_CSF.csv", labID="CSF",
     csf_list <- as.list(all_files) %>% lapply(function(x) {
         file_path <- paste(root, "/", x, "/CBSS/", folder, "/", filename, sep="")
         if (file.exists(file_path)) {
+            one_df <- fread(file_path)
             if (dim(one_df)[2] > 1) {
                 one_df %>% filter(vol > 10) %>%
                     mutate(ID = x) %>%
